@@ -47,6 +47,7 @@ class ViewController: UIViewController, CLLocationManagerDelegate, GMSMapViewDel
     
     //MARK: textfield
     func textFieldShouldBeginEditing(_ textField: UITextField) -> Bool {
+        
         let autoCompleteController = GMSAutocompleteViewController()
         autoCompleteController.delegate = self
         
